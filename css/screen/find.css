@@ -1,0 +1,105 @@
+.icon-row{
+    margin-top: 110px ;
+    display: flex;
+    align-items: center ;
+    
+   justify-content: space-between;
+}
+.icon-row__icon{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+.icon-row__icon i{
+    font-size: 30px;
+}
+.icon-row__icon span{
+    margin-top: 18px;
+    margin-bottom: 25px;
+    opacity: 0.8;
+    font-size: 100;
+}
+.recomended_friends_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #e2e9f8 ;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.6);
+    margin-top: 10px;
+}
+.recomended_friends_text span{
+    display: block;
+}
+.open_chat_title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.open_chat_title_text{
+    font-size: 15px;
+}
+.open_chat_title_link{
+    font-size: 12px;
+    opacity: 0.5;
+    align-items: center;
+}
+.open-chat{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.2s ease-in-out;
+}
+.open-chat:hover{
+    transform: translateY(4px);
+}
+.open-chat_title{
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+.open-chat_message{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.5;
+    font-weight: bolder;
+    margin-bottom: 7px;
+}
+.open-chat_member-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+}
+
+.open-chat_members{
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+.open-chat_members-text{
+    font-weight: normal;
+    font-size: 10px;
+    display: block;
+    opacity: 0.5;
+    
+}
+.open-chat_p{
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    
+}
+.open-chat_members-active{
+    color: rgb(253, 141, 159);
+    margin-top: 4px;
+
+}
+.img{
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+}

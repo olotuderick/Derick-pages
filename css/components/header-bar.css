@@ -1,0 +1,31 @@
+.header-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 25px;
+}
+.header-bar__icon span{
+    margin-left: 10px;
+    
+}
+.header-bar__icon i {
+  transition: 0.3s ease-in-out;
+}
+.header-bar_title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.header-bar__icon span:hover i{
+  transform: scale(1.5);
+}
+@keyframes gearSpin {
+    from{
+      transform: none;
+    }
+    to{
+      transform: rotateZ(360deg);
+    }
+  }
+    .header-bar__icon .fa-gear:hover{
+      animation: gearSpin 2s linear infinite;
+    }

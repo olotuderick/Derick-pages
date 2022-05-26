@@ -1,0 +1,91 @@
+.login-header{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.login-header_title{
+    text-align: center ;
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: -2px;
+    font-size: 40px;
+    font-weight: 950;
+    margin-bottom: 4px;
+}
+.login-header_title_sub{
+    text-align: center;
+    font-size: 13px;
+    opacity: 0.4;
+    margin-bottom: 30px;
+}
+.login-form{
+    justify-content: center;
+    align-items: center;
+    
+}
+.login-form_input{
+    display: block;
+    width: 93%;
+    height: 40px;
+    margin: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.4);
+    font-size: 15px;
+    background-color: transparent;
+}
+.login-form_input:focus{
+    border-bottom: 2px solid rgb(255, 129, 150);
+    background-color: rgb(224, 245, 252);
+}
+.login-form_btn{
+    width: 93%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    margin: 5px 20px;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Prompt', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 2px ;
+}
+.login-form_btn p{
+    margin-top: 10px;
+}
+.login-form_btn:hover{
+    color: pink;
+}
+.login-form_qn{
+    text-align: center;
+    display: block;
+    opacity: 0.8;
+}
+
+
+.login-form_sign-Up_text{
+    background-color:rgb(255, 129, 169) ;
+    padding: 6px 9px;
+    border-radius: 20px;
+    width: 110px;
+    text-align: center;
+    margin-left: 180px;
+
+}
+.login-form_sign-Up_text span{
+    font-size: 15px;
+}
+.login-form_sign-Up_qn{
+    display: block;
+}
+.sign-up{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.login-form_sign-Up_qn{
+    text-align: center;
+    margin-bottom: 7px;
+}

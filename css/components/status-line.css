@@ -1,0 +1,47 @@
+.status-line{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 8px;
+    width: 100%;
+}
+.status-line_column-icon{
+    margin-right: 5px;
+}
+.status-line_column-icon-battery-charge{
+    margin-right: 0px;
+}
+.status-line_column-icon-charging{
+    margin-left: 0px;
+}
+.fixed_top{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--main-color);
+    z-index: 20;
+    margin-bottom: 10px;
+}
+@keyframes beatteryLow {
+    0%{
+        
+        transform: scale(0.8);
+    }
+    50%{
+        
+        transform: scale(1);
+    }
+    100%{
+        
+        transform: scale(0.8);
+    }
+}
+.empty_battery{
+    will-change: transform;
+    color: red;
+    animation: beatteryLow 0.5s linear infinite;
+
+}
+
+    

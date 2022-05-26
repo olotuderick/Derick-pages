@@ -1,0 +1,29 @@
+.splash-screen{
+    background-color: brown;
+    position: absolute;
+    z-index: 99;
+    height: 200vh;
+    width: 100vw;
+    
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 0;
+    bottom: 0;
+    flex-wrap: wrap;
+}
+.fa-minimize{
+    margin-left: 40%;
+    margin-top: 150px;
+}
+.splash-screen span{
+    margin-left: 5%;
+    display: block;
+    left: 0;
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    .splash-screen {
+      display: none;
+    }
+  }

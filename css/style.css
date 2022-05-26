@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&family=Red+Hat+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&family=Red+Hat+Mono:ital@1&display=swap');
+/*components*/
+@import "components/status-line.css";
+@import "components/reset.css";
+@import "components/header-bar.css";
+@import "components/user-details.css";
+@import "components/nav-line.css";
+@import "components/variables.css";
+@import "components/modified-header.css";
+@import "components/splash-screen.css";
+@import "components/sign-up.css";
+/*screens*/
+@import "screen/login-form.css";
+@import "screen/friends.css";
+@import "screen/find.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
+@import "screen/chats.css";
+@import "screen/more.css";
+body{
+    font-family: 'Prompt', sans-serif;
+    background-color: var(--main-color);
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+}
+.main-body{
+    margin-left: 25px;
+    margin-right: 25px;
+}
